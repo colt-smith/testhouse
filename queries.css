@@ -163,7 +163,7 @@
 
     header{
         background-image: linear-gradient(rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.863)), url(img/greenhouse-main.jpg);
-        background-size: auto;
+        background-size: contain, cover;
         background-repeat: no-repeat;
         background-position: center;
         width: 100%;
