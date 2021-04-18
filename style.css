@@ -152,15 +152,16 @@ h3{
 
 .about{
     color:white;
-    
+    padding-top: 10%;
 }
 
 .about p{
     justify-content: center;
     text-align:center;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
     margin-top: 2%;
+    font-size: 125%;
     
 }
 
@@ -203,7 +204,7 @@ h3{
     display:flex;
     flex-direction: row;
     flex-flow: row wrap;
-    margin: 0 0 0 0;
+    /* margin: 0 0 0 0; */
 }
 
 
@@ -228,6 +229,9 @@ h3{
     
 }
 
+.photos{
+    padding: 0;
+}
 
 /* .photo{
     width: 25%;

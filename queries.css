@@ -21,6 +21,26 @@
     }
 }
 
+@media only screen and (max-width: 1444px){
+    .hero-text-box h1{
+        font-size: 290%;
+
+    }
+
+    .hero-text-box{
+        margin-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 1289px){
+    .hero-text-box h1{
+        font-size: 250%;
+
+    }
+
+}
+
+
 @media only screen and (max-width: 1145px){
     .item-box-of-2 > div{
         margin-right: 20px;
@@ -28,6 +48,14 @@
     
         
     }
+}
+
+@media only screen and (max-width: 1122px){
+    .hero-text-box h1{
+        font-size: 225%;
+
+    }
+
 }
 
 /* ipad pro  */
