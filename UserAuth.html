@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="shortcut icon" type="image/jpg" href="img/greenhouseFavicon.png" />
+<script type="text/javascript" src="bedloader.js"></script>
+<link rel="stylesheet" href="userAuthStyle.css">
+<body onload="flashMessage()">
+    <script>
+        if ("{{flash_message}}" == "True") {
+                // Saves the query string on the end of the URL 
+                // (URL www.blah.com/form?bed=100)
+                const queryString = window.location.search;
+                // (urlParams = "?bed=100")
+                const urlParams = new URLSearchParams(queryString);
+                // Looks for key ('bed') in urlParams
+                const bedNum = new Number(urlParams.get('bed'));
+                window.location.href = "/form?bed=" + bedNum;
+            }
+            if ("{{flash_message}}" == "False") {
+                alert("Incorrect Credentials")
+            }
+    </script>
+    <section class="form-class">
+        <h1>Please login:</h1>
+        <form action="" method="post" role="form" id="main" name="main">
+            <label for="name" class="label">Name:</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Username"
+                autocomplete="given-name">
+            <br>
+            <label for="password" class="label">Password:</label>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+            <br>
+            <button type="submit" class="btn-success">Submit</button>
+        </form>
+    </section>
+</body>
+
+</html>

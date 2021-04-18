@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="shortcut icon" type="image/jpg" href="img/greenhouseFavicon.png" />
+<link rel="stylesheet" href="bedContentsStyle.css">
+
+
+<body>
+    <h1>Bed Information</h1>
+    <p>Bed : {{bedNum}}<br>
+       Name : {{name}}<br>
+       Plant : {{plant}}<br>
+       Date Planted : {{date_planted}}<br>
+       Date Finished : {{date_finished}}<br>
+       Last Watered : {{last_watered}}<br>
+    </p>
+    <a id="toForm" href="/auth?bed={{bedNum}}" title="Update Form">
+        <button>Update Form</button>
+    </a>
+</body>
+</html>
