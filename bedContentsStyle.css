@@ -25,14 +25,14 @@ body{
 }
 
 body p{
-    margin-left: 25%;
+    text-align: center;
     font-size: 125%;
     align-items: center;
 }
 
 
 h1{
-    margin-left: 25%;
+    text-align: center;
     text-decoration: underline;
     padding-bottom: 5%;
 }

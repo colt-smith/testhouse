@@ -1,0 +1,47 @@
+/***************************/
+/*          WIDTHS         */
+/***************************/
+
+@media only screen and (max-width: 1300px){
+    body p{
+        font-size: 100%
+    }
+}
+
+@media only screen and (max-width: 1155px){
+    h1{
+        font-size: 175%;
+    }
+}
+
+@media only screen and (max-width: 1095px){
+    h1{
+        font-size: 150%;
+    }
+    body p{
+        font-size: 90%;
+    }
+}
+
+@media only screen and (max-width: 1010px){
+    body p{
+        font-size: 75%;
+    }
+}
+
+/***************************/
+/*          HEIGHTS        */
+/***************************/
+/* @media only screen and (max-height: 812px){
+    .hero-text-box{
+        width: 25%;
+    }
+    
+    .hero-text-box h1{
+        font-size: 50%;
+    }
+
+    .main-nav{
+        font-size: 20%;
+    }
+} */
