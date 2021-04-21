@@ -40,6 +40,10 @@
 
     }
 
+    .about p{
+        font-size: 100%;
+    }
+
 }
 
 
@@ -103,7 +107,9 @@
         display: none;
     }
 
-    
+    .about p{
+        font-size: 75%;
+    }
 }
 
 @media only screen and (max-width: 1016px){
@@ -159,6 +165,9 @@
         font-size: 65%;
     }
 
+    h3{
+        font-size: 225%;
+    }
     .hero-text-box h1{
         font-size: 110%;
         padding-bottom: 6%;

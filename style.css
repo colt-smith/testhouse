@@ -103,16 +103,16 @@ h2{
     margin-top: -120px;
     margin-bottom: 20px;
     letter-spacing: 1px;
+    text-decoration: underline;
 }
 
-.break{
-    padding: 200px 0px;
-}
 
 h3{
-    font-size: 110%;
+    font-size: 300%;
     margin-bottom: 15px;
-    
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 1%;
 }
 
 .main-nav{
@@ -152,16 +152,19 @@ h3{
 
 .about{
     color:white;
-    padding-top: 10%;
+
+    padding-top: 3%;
+
 }
 
 .about p{
-    justify-content: center;
+    /* justify-content: center; */
     text-align:center;
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 2%;
-    font-size: 125%;
+    /* margin-top: 5%; */
+    
+    font-size: 150%;
     
 }
 
