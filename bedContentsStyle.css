@@ -22,6 +22,7 @@ body{
     border:15px solid #226924;
     border-radius: 25px;
     background-color: #465743;
+    padding-bottom: 75px;
 }
 
 body p{
@@ -39,7 +40,7 @@ h1{
 
 
 button{
-    margin-top: 10%;
+    margin-top: 2%;
     float:left;
     cursor:pointer;
     color:rgb(219, 219, 219);

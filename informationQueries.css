@@ -3,31 +3,48 @@
 /***************************/
 
 @media only screen and (max-width: 1300px){
+    h1{
+        padding-bottom: 0;
+    }
+    
     body p{
-        font-size: 100%
+        font-size: 150%;
+    }
+
+    body{
+        
+        margin-right: 20%;
+        margin-left: 20%;
+        line-height: 400%;
     }
 }
 
 @media only screen and (max-width: 1155px){
-    h1{
-        font-size: 175%;
-    }
-}
-
-@media only screen and (max-width: 1095px){
-    h1{
-        font-size: 150%;
-    }
+    
     body p{
-        font-size: 90%;
+        font-size: 125%;
     }
+
+
 }
 
-@media only screen and (max-width: 1010px){
+@media only screen and (max-width: 730px){
+    
+    body p{
+        font-size: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 635px){
+   
     body p{
         font-size: 75%;
+        
     }
 }
+
 
 /***************************/
 /*          HEIGHTS        */
