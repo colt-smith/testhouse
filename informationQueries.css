@@ -28,22 +28,76 @@
 
 }
 
-@media only screen and (max-width: 730px){
+@media only screen and (max-width: 865px){
     
+    h1{
+        font-size: 200%;
+    }
     body p{
         font-size: 100%;
+         
     }
-
+    body{
+        border: none;
+        padding: 0;
+    } 
 
 }
 
-@media only screen and (max-width: 635px){
-   
+@media only screen and (max-width: 600px){
+    
+    h1{
+        font-size: 150%;
+    }
+    body p{
+        font-size: 85%;
+         
+    }
+
+}
+
+@media only screen and (max-width: 475px){
+    
+    h1{
+        font-size: 125%;
+    }
+    body{
+        line-height: 300%;
+    }
     body p{
         font-size: 75%;
-        
+         
     }
+
 }
+
+@media only screen and (max-width: 415px){
+    
+    h1{
+        font-size: 100%;
+    }
+    
+    body p{
+        font-size: 60%;
+         
+    }
+
+}
+
+@media only screen and (max-width: 330px){
+    
+    h1{
+        font-size: 85%;
+    }
+    
+    body p{
+        font-size: 50%;
+         
+    }
+
+}
+
+
 
 
 /***************************/
