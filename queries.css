@@ -73,8 +73,13 @@
     }
 
     .main-nav{
-        margin-right: 18%;
+        margin-right: 15%;
         font-size: 125%;
+        
+    }
+
+    .main-nav li{
+        padding-right: 45px;
     }
 
     h2{
@@ -110,6 +115,11 @@
     .about p{
         font-size: 75%;
     }
+
+    .rectangle{
+        font-size: 225%;
+        height: 60px;
+    }
 }
 
 @media only screen and (max-width: 1016px){
@@ -122,6 +132,16 @@
         height: 50%;
         max-height: 50%;
         width: 100%;
+    }
+
+    .main-nav{
+        align-items: center;
+        top: 50%;
+        left: 50%;
+    }
+    .main-nav li{
+        padding-right: 10px;
+        
     }
 }
 
@@ -139,10 +159,19 @@
        font-size: 200%; 
     }
     .main-nav{
-        margin-right: 14%;
+        align-items: center;
         font-size: 100%;
+
+    }
+    .main-nav li{
+        padding-right: 10px;
     }
 
+    .rectangle{
+        font-size: 175%;
+        height: 50px;
+        width: 400px;
+    }
 
 }
 
@@ -157,6 +186,11 @@
     .grid-container{
         grid-template-columns: 60px 60px 60px;
         grid-template-rows: 50px 50px;
+    }
+
+    .rectangle{
+        
+        width: 300px;
     }
 }
 
@@ -190,6 +224,12 @@
     .grid-container{
         grid-template-columns: 50px 50px 50px;
         grid-template-rows: 40px 40px;
+    }
+
+    .rectangle{
+        font-size: 125%;
+        height: 35px;
+        width: 150px;
     }
 }
 
